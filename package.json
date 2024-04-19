@@ -1,0 +1,34 @@
+{
+  "name": "JS-HW-08",
+  "version": "2.0.0",
+  "description": "Цей проект створено за допомогою Parcel. Для ознайомлення та налаштування  додаткових можливостей, [зверніться до документації](https://parceljs.org/).",
+  "homepage": "https://JkFrancis07.github.io/goit-js-hw-08",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JkFrancis07/goit-js-hw-08.git"
+  },
+  "keywords": [],
+  "author": "King Francis <kingfrancisantonio07232022@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JkFrancis07/goit-js-hw-08/issues"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.22.0",
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.14.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "index.js"
+}
